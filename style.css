@@ -233,8 +233,13 @@ footer {
 }
 
 @media screen and (max-width:425px){
-  body{
+  header,
+  .main-visual-content,
+  .blog,
+  .sidebar,
+  footer{
     width: 100%;
   }
+  
   
 }
