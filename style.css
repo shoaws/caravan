@@ -234,11 +234,17 @@ footer {
 
 @media screen and (max-width:425px){
   header,
+  main,
   .main-visual-content,
   .blog,
   .sidebar,
   footer{
     width: 100%;
+  }
+  
+  .social,
+  .category{
+    display: none;
   }
   
   
