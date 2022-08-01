@@ -247,5 +247,24 @@ footer {
     display: none;
   }
   
+  main{
+    display: block;
+  }
   
+  .blog,
+  .sidebar{
+    margin: 5px;
+  }
+  .blog-image{
+    width: 50%;
+    object-fit: cover;
+  }
+  .pagination{
+    padding-bottom: 50px;
+  }
+  
+  .instagram-box{
+    width: 200px;
+    padding-top: 200px;
+  }
 }
