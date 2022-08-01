@@ -234,12 +234,18 @@ footer {
 
 @media screen and (max-width:425px){
   header,
+  .nav-list,
   main,
   .main-visual-content,
   .blog,
   .sidebar,
   footer{
     width: 100%;
+  }
+  
+  .nav-list-item{
+  display: block;
+  margin-bottom: 10px;
   }
   
   .social,
